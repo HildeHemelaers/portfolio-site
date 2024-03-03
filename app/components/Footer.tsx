@@ -30,7 +30,6 @@ export function Footer() {
                 <NavLink href="/about">Over mij</NavLink>
                 <NavLink href="/projects">Projecten</NavLink>
                 <NavLink href="/speaking">Stage</NavLink>
-                {/* <NavLink href="/uses">Uses</NavLink> */}
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
                 &copy; {new Date().getFullYear()} Hilde Hemelaers. All rights
