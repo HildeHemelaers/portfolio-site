@@ -128,7 +128,7 @@ function MobileNavigation(
                 <CloseIcon className="h-6 w-6 text-zinc-500 dark:text-zinc-400" />
               </Popover.Button>
               <h2 className="text-sm font-medium text-zinc-600 dark:text-zinc-400">
-                Navigation
+                Navigatie
               </h2>
             </div>
             <nav className="mt-6">
@@ -136,7 +136,7 @@ function MobileNavigation(
                 <MobileNavItem href="/about">Over mij</MobileNavItem>
                 {/* <MobileNavItem href="/articles">Articles</MobileNavItem> */}
                 <MobileNavItem href="/projects">Projecten</MobileNavItem>
-                <MobileNavItem href="/speaking">Stage</MobileNavItem>
+                <MobileNavItem href="/stage">Stage</MobileNavItem>
                 {/* <MobileNavItem href="/uses">Uses</MobileNavItem> */}
               </ul>
             </nav>
@@ -183,7 +183,7 @@ function DesktopNavigation(props: React.ComponentPropsWithoutRef<'nav'>) {
         <NavItem href="/about">Over mij</NavItem>
         {/* <NavItem href="/articles">Articles</NavItem> */}
         <NavItem href="/projects">Projecten</NavItem>
-        <NavItem href="/speaking">Stage</NavItem>
+        <NavItem href="/stage">Stage</NavItem>
         {/* <NavItem href="/uses">Uses</NavItem> */}
       </ul>
     </nav>
@@ -442,11 +442,11 @@ export function Header() {
                 <MobileNavigation className="pointer-events-auto md:hidden" />
                 <DesktopNavigation className="pointer-events-auto hidden md:block" />
               </div>
-              <div className="flex justify-end md:flex-1">
+              {/* <div className="flex justify-end md:flex-1">
                 <div className="pointer-events-auto">
                   <ThemeToggle />
                 </div>
-              </div>
+              </div> */}
             </div>
           </Container>
         </div>

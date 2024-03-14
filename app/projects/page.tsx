@@ -1,9 +1,9 @@
 import { type Metadata } from 'next'
 import Image from 'next/image'
-/* 
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
+
+// import logoAnimaginary from '@/images/logos/animaginary.svg'
+import logoCosmos from '../images/logos/cosmos.svg'
+/* import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg' */
 import { SimpleLayout } from '../components/SimpleLayout'
@@ -11,38 +11,38 @@ import { Card } from '../components/Card'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Project1',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+      'Project info',
+    link: { href: '#', label: 'info project 1' },
     /* logo: logoPlanetaria, */
   },
   {
-    name: 'Animaginary',
+    name: 'Project 2',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
+    'Project info',
+    link: { href: '#', label: 'info project 2' },
     /* logo: logoAnimaginary, */
   },
   {
-    name: 'HelioStream',
+    name: 'Project 3',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
+    'Project info',
+    link: { href: '#', label: 'info project 3' },
     /* logo: logoHelioStream, */
   },
   {
-    name: 'cosmOS',
+    name: 'Project 4',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
+    'Project info',
+    link: { href: '#', label: 'info project 4' },
     /* logo: logoCosmos, */
   },
   {
-    name: 'OpenShuttle',
+    name: 'Project 5',
     description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
+    'Project info',
+    link: { href: '#', label: 'info project 5' },
     /* logo: logoOpenShuttle, */
   },
 ]
@@ -66,8 +66,8 @@ export const metadata: Metadata = {
 export default function Projects() {
   return (
     <SimpleLayout
-      title="Things I’ve made trying to put my dent in the universe."
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+      title="Mijn projecten"
+      intro="Intro tot mijn projecten."
     >
       <ul
         role="list"
@@ -77,7 +77,7 @@ export default function Projects() {
           <Card as="li" key={project.name}>
             <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
               <img
-                src="https://www.freepik.com/free-photos-vectors/funny-face"
+                src={logoCosmos}
                 alt=""
                 className="h-8 w-8"
                 /* unoptimized */

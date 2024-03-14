@@ -7,11 +7,6 @@ import { Layout } from './components/Layout'
 
 export const metadata: Metadata = {
   title: 'Hilde Hemelaers',
-  /* title: {
-    template: '%s - Spencer Sharp',
-    default:
-      'Hilde Hemelaers',
-  }, */
   description:
     'Ik ben Hilde Hemelaers, student applicatieontwikkeling aan de Thomas More hogeschool in Geel.',
   alternates: {
