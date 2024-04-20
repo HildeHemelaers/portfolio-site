@@ -35,8 +35,8 @@ export function StageOpdracht() {
                 </a>
               <p className="my-2 mb-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Stage documentatie</p>
               <ul role="list" className="divide-y divide-gray-100 rounded-md border border-gray-200">
-                {features.map((item) => (
-                  <li className="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
+                {features.map((item, index) => (
+                  <li key={index} className="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
                   <div className="flex w-0 flex-1 items-center">
                     <PaperClipIcon className="h-5 w-5 flex-shrink-0 text-gray-400" aria-hidden="true" />
                     <div className="ml-4 flex min-w-0 flex-1 gap-2">
