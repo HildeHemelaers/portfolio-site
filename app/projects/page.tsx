@@ -1,49 +1,49 @@
 import { type Metadata } from 'next'
 import Image from 'next/image'
 
-// import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '../images/logos/cosmos.svg'
-/* import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg' */
+import krioen from '../images/logos/krioen.png'
+import hooyberghs from '../images/logos/hooyberghs.png'
+import googleDrive from '../images/logos/googleDrive.png'
+import flutter from '../images/logos/flutter.png'
+import RA from '../images/logos/RA.png'
 import { SimpleLayout } from '../components/SimpleLayout'
 import { Card } from '../components/Card'
 
 const projects = [
   {
-    name: 'Project1',
+    name: 'Website Krioen',
     description:
-      'Project info',
-    link: { href: '#', label: 'info project 1' },
-    /* logo: logoPlanetaria, */
+      'Scouts',
+    link: { href: '/projects/krioen', label: 'info website krioen' },
+    logo: krioen,
   },
   {
-    name: 'Project 2',
+    name: 'Project 4.0',
     description:
-    'Project info',
-    link: { href: '#', label: 'info project 2' },
-    /* logo: logoAnimaginary, */
+    'School',
+    link: { href: '/projects/project4.0', label: 'info project 4.0' },
+    logo: hooyberghs,
   },
   {
-    name: 'Project 3',
+    name: 'Google drive',
     description:
-    'Project info',
-    link: { href: '#', label: 'info project 3' },
-    /* logo: logoHelioStream, */
+    'Scouts',
+    link: { href: '/projects/googleDrive', label: 'info google drive' },
+    logo: googleDrive,
   },
   {
-    name: 'Project 4',
+    name: 'App mobile dev and ar',
     description:
-    'Project info',
-    link: { href: '#', label: 'info project 4' },
-    /* logo: logoCosmos, */
+    'School',
+    link: { href: '/projects/appMobileDevAndAr', label: 'info app' },
+    logo: flutter,
   },
   {
-    name: 'Project 5',
+    name: 'Project requirement analysis',
     description:
-    'Project info',
-    link: { href: '#', label: 'info project 5' },
-    /* logo: logoOpenShuttle, */
+    'School',
+    link: { href: '/projects/projectRA', label: 'info project requirement analysis' },
+    logo: RA,
   },
 ]
 
@@ -67,7 +67,7 @@ export default function Projects() {
   return (
     <SimpleLayout
       title="Mijn projecten"
-      intro="Intro tot mijn projecten."
+      intro="Hieronder kan u een aantal van mijn verwezenlijkte projecten terugvinden. Dit gaat zowel over projecten die ik binnen als buiten de scool context heb gemaakt."
     >
       <ul
         role="list"
@@ -76,8 +76,8 @@ export default function Projects() {
         {projects.map((project) => (
           <Card as="li" key={project.name}>
             <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-              <img
-                src={logoCosmos}
+              <Image
+                src={project.logo}
                 alt=""
                 className="h-8 w-8"
                 /* unoptimized */

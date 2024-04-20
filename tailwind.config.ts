@@ -16,6 +16,9 @@ const config: Config = {
       colors: {
         'huisstijl-blue': '#26bdad',
       },
+      spacing: {
+        '128': '32rem',
+      }
     },
   },
   plugins: [],
