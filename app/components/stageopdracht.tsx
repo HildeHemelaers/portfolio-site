@@ -10,7 +10,7 @@ import ScreenApp from '@/app/images/photos/screenapp.png';
 const features = [
   {
     name: 'Plan van aanpak',
-    link: '#',
+    link: 'https://rt6zyqesuqnyty1i.public.blob.vercel-storage.com/Plan%20van%20aanpak%20Hilde%20Hemelaers%20stage%202024-xJyk39k44B1naf0Zc3G9H5lbmDso3h.pdf',
   },
   {
     name: 'Realisatie',
@@ -66,7 +66,8 @@ export function StageOpdracht() {
                     </div>
                     <div className='ml-4 flex-shrink-0'>
                       <a
-                        href='#'
+                        target='_blank'
+                        href={item.link}
                         className='font-medium text-teal-500 hover:text-teal-600'
                       >
                         Download
