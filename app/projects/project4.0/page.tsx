@@ -1,15 +1,18 @@
 import { SimpleLayout } from '@/app/components/SimpleLayout';
-import { ArrowUturnLeftIcon } from '@heroicons/react/24/solid';
+import { Back } from '@/app/components/back';
+import { Tussentitel } from '@/app/components/tussentitel';
 
 export default function Project40() {
   return (
     <SimpleLayout title='Project 4.0' intro='intro'>
-      <a
-        href='/projects'
-        className='flex ring-1 ring-gray-300 rounded-sm w-max items-center p-2 hover:bg-gray-200'
-      >
-        <ArrowUturnLeftIcon className='h-4 w-4' /> Terug
-      </a>
+      <Tussentitel>Achtergrond en context</Tussentitel>
+      <Tussentitel>Doelstellingen van het project</Tussentitel>
+      <Tussentitel>Gebruikte technologieën</Tussentitel>
+      <Tussentitel>
+        Beschrijven van mijn taken en verantwoordelijkheden
+      </Tussentitel>
+      <Tussentitel>Persoonlijke ontwikkeling</Tussentitel>
+      <Back>/projects</Back>
     </SimpleLayout>
   );
 }

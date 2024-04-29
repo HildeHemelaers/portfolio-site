@@ -28,7 +28,7 @@ function SocialLink({
     <li className={clsx(className, 'flex')}>
       <Link
         href={href}
-        className='group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500'
+        className='group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 '
       >
         <Icon className='h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500' />
         <span className='ml-4'>{children}</span>
@@ -64,9 +64,7 @@ export default function About() {
           src={avatarImage}
           alt=''
           sizes={'4rem'}
-          className={
-            'rounded-full bg-zinc-100 object-cover dark:bg-zinc-800h-32 w-32'
-          }
+          className={'rounded-full bg-zinc-100 object-cover w-32'}
           priority
         />
       </div>
@@ -97,7 +95,7 @@ export default function About() {
             target='_blank'
             className='group -m-1 p-1 flex flex-rows gap-2'
           >
-            <GitHubIcon className='h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300' />
+            <GitHubIcon className='h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 ' />
             Github repo
           </a>
           <a
@@ -124,49 +122,49 @@ export default function About() {
           <div className='grid grid-cols-3 gap-y-2'>
             <div className='col-span-1'>html/css</div>
             <div className='col-span-2'>
-              <div className='w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700'>
+              <div className='w-full bg-gray-200 rounded-full h-2.5 '>
                 <div className='bg-huisstijl-blue h-2.5 rounded-full w-5/6'></div>
               </div>
             </div>
             <div className='col-span-1'>Angular</div>
             <div className='col-span-2'>
-              <div className='w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700'>
+              <div className='w-full bg-gray-200 rounded-full h-2.5 '>
                 <div className='bg-huisstijl-blue h-2.5 rounded-full w-4/6'></div>
               </div>
             </div>
             <div className='col-span-1'>.net</div>
             <div className='col-span-2'>
-              <div className='w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700'>
+              <div className='w-full bg-gray-200 rounded-full h-2.5 '>
                 <div className='bg-huisstijl-blue h-2.5 rounded-full w-3/4'></div>
               </div>
             </div>
             <div className='col-span-1'>Java</div>
             <div className='col-span-2'>
-              <div className='w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700'>
+              <div className='w-full bg-gray-200 rounded-full h-2.5 '>
                 <div className='bg-huisstijl-blue h-2.5 rounded-full w-3/4'></div>
               </div>
             </div>
             <div className='col-span-1'>Next.js</div>
             <div className='col-span-2'>
-              <div className='w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700'>
+              <div className='w-full bg-gray-200 rounded-full h-2.5 '>
                 <div className='bg-huisstijl-blue h-2.5 rounded-full w-5/6'></div>
               </div>
             </div>
             <div className='col-span-1'>Pyton</div>
             <div className='col-span-2'>
-              <div className='w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700'>
+              <div className='w-full bg-gray-200 rounded-full h-2.5 '>
                 <div className='bg-huisstijl-blue h-2.5 rounded-full w-5/6'></div>
               </div>
             </div>
             <div className='col-span-1'>React</div>
             <div className='col-span-2'>
-              <div className='w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700'>
+              <div className='w-full bg-gray-200 rounded-full h-2.5 '>
                 <div className='bg-huisstijl-blue h-2.5 rounded-full w-5/6'></div>
               </div>
             </div>
             <div className='col-span-1'>Qlick sense</div>
             <div className='col-span-2'>
-              <div className='w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700'>
+              <div className='w-full bg-gray-200 rounded-full h-2.5 '>
                 <div className='bg-huisstijl-blue h-2.5 rounded-full w-1/2'></div>
               </div>
             </div>
