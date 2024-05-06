@@ -6,7 +6,7 @@ export default function Krioen() {
   return (
     <SimpleLayout
       title='Krioen'
-      intro='Krioen is de overkoepelende vzw van Akabe de Pioen en Chiro Kringel voor de bouw van hun gezamenlijke  lokalen.'
+      intro='Krioen is de overkoepelende vzw van Akabe de Pioen en Chiro Kringel Elsum voor de bouw van hun gezamenlijke  lokalen.'
     >
       <Tussentitel>Achtergrond en context</Tussentitel>
       <p>
@@ -33,8 +33,8 @@ export default function Krioen() {
       <Tussentitel>Gebruikte technologieën</Tussentitel>
       <p>
         Ik heb ervoor gekozen om een Next.js applicatie te maken. Dit omdat ze
-        de website na de bouw willen hergebruiken om een een bookingsplatform
-        van te maken voor de verhuur van het lokaal. Ik maakte ook gebruik van
+        de website na de bouw willen hergebruiken om er een boekingsplatform van
+        te maken voor de verhuur van het lokaal. Ik maakte ook gebruik van
         tailwind css voor de styling.
       </p>
       <Tussentitel>

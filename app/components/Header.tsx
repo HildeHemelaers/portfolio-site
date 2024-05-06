@@ -325,7 +325,7 @@ export function Header() {
               className='order-last mt-[calc(theme(spacing.16)-theme(spacing.3))]'
             />
             <Container
-              className='top-0 order-last -mb-3 pt-3'
+              className='top-0 order-last'
               style={{
                 position:
                   'var(--header-position)' as React.CSSProperties['position'],
@@ -383,11 +383,6 @@ export function Header() {
                 <MobileNavigation className='pointer-events-auto md:hidden' />
                 <DesktopNavigation className='pointer-events-auto hidden md:block' />
               </div>
-              {/* <div className="flex justify-end md:flex-1">
-                <div className="pointer-events-auto">
-                  <ThemeToggle />
-                </div>
-              </div> */}
             </div>
           </Container>
         </div>
