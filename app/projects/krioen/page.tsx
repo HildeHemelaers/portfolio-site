@@ -1,6 +1,8 @@
 import { SimpleLayout } from '@/app/components/SimpleLayout';
 import { Back } from '@/app/components/back';
 import { Tussentitel } from '@/app/components/tussentitel';
+import { GlobeAltIcon } from '@heroicons/react/20/solid';
+import Link from 'next/link';
 
 export default function Krioen() {
   return (
@@ -16,7 +18,7 @@ export default function Krioen() {
         jeugdbewegingen te krijgen. Ook zal deze dienen om sponsors aan te
         kunnen spreken met duidelijke informatie op een eigen website.
       </p>
-      <p>
+      <p className='pt-2'>
         Aangezien niemand bij de vzw ervaring had met het maken van een website
         kwamen ze bij mij terecht. Zelf ben ik jaren lid en leiding geweest bij
         Akabe de Pioen. Hierdoor ben ik gekend bij de leden van de vzw en wisten
@@ -48,7 +50,15 @@ export default function Krioen() {
         over het hosten van een website op een eigen domeinnaam.
       </p>
       <Tussentitel>Persoonlijke ontwikkeling</Tussentitel>
-
+      <Tussentitel>Link naar het project</Tussentitel>
+      <a
+        target='_blank'
+        href='https://dekrioen.be/'
+        className='hover:text-teal-600 flex items-center gap-2'
+      >
+        <GlobeAltIcon className='h-4 w-4' />
+        dekrioen.be
+      </a>
       <Back>/projects</Back>
     </SimpleLayout>
   );

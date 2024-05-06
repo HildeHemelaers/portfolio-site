@@ -20,6 +20,13 @@ const config: Config = {
         '128': '32rem',
         '200': '75rem',
       },
+      listStyleType: {
+        none: 'none',
+        disc: 'disc',
+        decimal: 'decimal',
+        square: 'square',
+        circle: 'circle',
+      },
     },
   },
   plugins: [],

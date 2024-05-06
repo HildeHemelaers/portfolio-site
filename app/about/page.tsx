@@ -70,26 +70,26 @@ export default function About() {
       </div>
       <div className='grid grid-cols-3 pt-4 gap-2'>
         <div className='col-span-3 sm:col-span-1 pt-2'>
-          <p>1 juli 2002</p>
+          <p className='py-2'>1 juli 2002</p>
           <br />
-          <p>0468/18.40.62</p>
-          <p>hildehemelaers@hotmail.com</p>
+          <p className='py-2'>0468/18.40.62</p>
+          <p className='pb-2'>hildehemelaers@hotmail.com</p>
           <br />
-          <p>2200 Herentals</p>
-          <hr className='h-px my-4 border-0 bg-gray-700 mr-2' />
-          <p className='text-xl font-semibold'>Opleiding</p>
+          <p className='py-2'>2200 Herentals</p>
+          <hr className='h-px my-10 border-0 bg-gray-700 mr-2' />
+          <p className='text-xl font-semibold py-2'>Opleiding</p>
           <p>2020-2024</p>
-          <p className='pl-2'>
+          <p className='pl-2 px-2'>
             Professionele bachelor in de toegepaste informatica specialisatie in
             applicatieontwikkeling
-            <p className='text-slate-400'>Thomas more - Geel</p>
+            <p className='text-slate-400 py-2'>Thomas more - Geel</p>
           </p>
           <p>2016-2020</p>
-          <p className='pl-2'>
+          <p className='pl-2 py-2'>
             Tso boekhouden informatica
-            <p className='text-slate-400'>Campus de Vesten - Herentals</p>
+            <p className='text-slate-400 py-2'>Campus de Vesten - Herentals</p>
           </p>
-          <hr className='h-px my-4 border-0 bg-gray-700 mr-2' />
+          <hr className='h-px my-10 border-0 bg-gray-700 mr-2' />
           <a
             href='https://github.com/HildeH2002'
             target='_blank'
