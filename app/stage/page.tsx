@@ -42,14 +42,14 @@ export default function Stage() {
   return (
     <SimpleLayout
       title='Ontwikkelen van SaaS-platform voor energiemanagement van gebouwen'
-      intro='Ik kreeg de kans aan een zeer boeiende een leerrijke stageopdracht te werken bij iSmart te Westerlo. Hieronder kan u alles terugvinden in verband met mijn stage.'
+      intro='Ik kreeg de kans aan een zeer boeiende een leerrijke stageopdracht te werken bij iSmart te Westerlo. Hieronder kunt u alles terugvinden in verband met mijn stage.'
     >
       <div className='space-y-20'>
         <SpeakingSection title='Verschillende Fases stage'>
           {/* TODO - verschillende fases uitschrijven met uitleg */}
           <Appearance
             title='Analyse'
-            description='De eerste week heb ik mij bezig gehouden met het onderzoeken van de scope van de stageopdracht. Dit heb ik dan gedocumenteerd. Dit ook aangezien we vanaf de tweede week met twee studenten gingen zijn en het zo voor beide duidelijk werd wat er van ons verwacht werd.'
+            description='De eerste week heb ik me bezig gehouden met het onderzoeken van de scope van de stageopdracht. Dit heb ik dan gedocumenteerd. Dit ook aangezien we vanaf de tweede week met twee studenten gingen zijn en het zo voor beide duidelijk werd wat er van ons verwacht werd.'
             event='Week 1 (19/02-23/02)'
           />
           <Appearance
@@ -64,7 +64,7 @@ export default function Stage() {
           />
           <Appearance
             title='Afsluiting'
-            description='In deze fase heb ik mij bezig gehouden met alle ducomentatie voor mijn stage in orde te brengen.'
+            description='In deze fase heb ik me bezig gehouden met alle documentatie voor mijn stage in orde te brengen.'
             event='Week 14 - week 15 (20/05-31/05)'
           />
         </SpeakingSection>

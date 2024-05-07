@@ -1,8 +1,3 @@
-import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
-} from '@heroicons/react/20/solid';
 import { GlobeAltIcon, PaperClipIcon } from '@heroicons/react/24/solid';
 import Image from 'next/image';
 import ScreenApp from '@/app/images/photos/screenapp.png';
@@ -21,7 +16,7 @@ const features = [
     link: '#',
   },
   {
-    name: 'Reflextie',
+    name: 'Reflectie',
     link: '#',
   },
 ];

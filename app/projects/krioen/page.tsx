@@ -2,7 +2,6 @@ import { SimpleLayout } from '@/app/components/SimpleLayout';
 import { Back } from '@/app/components/back';
 import { Tussentitel } from '@/app/components/tussentitel';
 import { GlobeAltIcon } from '@heroicons/react/20/solid';
-import Link from 'next/link';
 
 export default function Krioen() {
   return (

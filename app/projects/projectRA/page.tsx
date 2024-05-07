@@ -59,6 +59,17 @@ export default function ProjectRa() {
         het prototype heb uitgewerkt.
       </p>
       <Tussentitel>Persoonlijke ontwikkeling</Tussentitel>
+      <p>
+        Door een best groot project uit te werken in een use case diagram ben ik
+        ervan overtuigd dat ik tegen het einde zeker goed begrepen had hoe een
+        use case diagram te maken. Ik heb extra nauwkeurig leren werken want ook
+        al was het een groepswerk, het moest wel consistent zijn zodat het niet
+        duidelijk was wanneer een gedeelte van een andere student begon.
+        Aangezien ons project gericht was naar mensen met dementie heb ik
+        inzicht gekregen in wat er belangrijk is in het ontwerp van een
+        applicatie voor deze doelgroep.
+      </p>
+      <Tussentitel>Afbeeldingen van het project</Tussentitel>
       <Back>/projects</Back>
     </SimpleLayout>
   );

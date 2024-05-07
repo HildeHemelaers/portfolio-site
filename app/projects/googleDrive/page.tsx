@@ -41,23 +41,13 @@ export default function GoogleDrive() {
         konden nemen.
       </p>
       <Tussentitel>Gebruikte technologieën</Tussentitel>
-      <div className='flex gap-5 md:h-128'>
-        <div className='relative w-200 '>
-          <Image
-            src={photoDrive}
-            fill={true}
-            alt='Foto drive'
-            className='object-contain'
-          />
-        </div>
-        <p>
-          {/* eslint-disable-next-line react/no-unescaped-entities */}
-          Ik heb al onze documenten en foto's overgezet naar een Google drive.
-          Aangezien deze Google drive gekoppeld was aan een Google Workspace
-          konden daar ook de accounts gemaakt worden. Ik heb gebruikt gemaakt
-          van Photoshop om voor elk mapje een passende cover te maken.
-        </p>
-      </div>
+      <p>
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
+        Ik heb al onze documenten en foto's overgezet naar een Google drive.
+        Aangezien deze Google drive gekoppeld was aan een Google Workspace
+        konden daar ook de accounts gemaakt worden. Ik heb gebruikt gemaakt van
+        Photoshop om voor elk mapje een passende cover te maken.
+      </p>
       <Tussentitel>
         Beschrijven van mijn taken en verantwoordelijkheden
       </Tussentitel>
@@ -74,6 +64,13 @@ export default function GoogleDrive() {
         over de aanvraag van de gratis Google Workspace en de initialisatie van
         de mail waren moeilijk, maar hierdoor heb ik veel bijgeleerd.
       </p>
+      <Tussentitel>Afbeelding van het project</Tussentitel>
+      <Image
+        src={photoDrive}
+        width={400}
+        alt='Foto drive'
+        className='object-contain'
+      />
       <Back>/projects</Back>
     </SimpleLayout>
   );
