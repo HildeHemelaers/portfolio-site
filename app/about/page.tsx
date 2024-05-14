@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import avatarImage from '../images/avatar.png';
+import avatarImage from '../images/avatar.PNG';
 
 import { Container } from '../components/Container';
 import { GitHubIcon } from '../components/SocialIcons';
