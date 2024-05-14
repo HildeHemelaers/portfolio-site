@@ -8,7 +8,7 @@ import { useTheme } from 'next-themes';
 import { Popover, Transition } from '@headlessui/react';
 import clsx from 'clsx';
 
-import avatarImage from '../images/avatar.jpg';
+import avatarImage from '@/app/images/avatar.jpg';
 import { Container } from './Container';
 
 function CloseIcon(props: React.ComponentPropsWithoutRef<'svg'>) {

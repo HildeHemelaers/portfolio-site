@@ -64,7 +64,7 @@ export default function Stage() {
           />
           <Appearance
             title='Afsluiting'
-            description='In deze fase heb ik me bezig gehouden met alle documentatie voor mijn stage in orde te brengen.'
+            description='In deze fase heb ik me bezig gehouden met alle documentatie voor mijn stage in orde te maken.'
             event='Week 14 - week 15 (20/05-31/05)'
           />
         </SpeakingSection>

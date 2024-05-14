@@ -19,6 +19,10 @@ const features = [
     name: 'Reflectie',
     link: '#',
   },
+  {
+    name: 'Documentatie Energy!',
+    link: '#',
+  },
 ];
 
 export function StageOpdracht() {

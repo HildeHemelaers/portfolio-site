@@ -1,58 +1,8 @@
-import { type Metadata } from 'next';
 import Image from 'next/image';
-import Link from 'next/link';
-import clsx from 'clsx';
-import avatarImage from '../images/avatar.jpg';
+import avatarImage from '../images/avatar.png';
 
-import portraitImage from '../images/portrait.jpg';
 import { Container } from '../components/Container';
-import {
-  GitHubIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  XIcon,
-} from '../components/SocialIcons';
-
-function SocialLink({
-  className,
-  href,
-  children,
-  icon: Icon,
-}: {
-  className?: string;
-  href: string;
-  icon: React.ComponentType<{ className?: string }>;
-  children: React.ReactNode;
-}) {
-  return (
-    <li className={clsx(className, 'flex')}>
-      <Link
-        href={href}
-        className='group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 '
-      >
-        <Icon className='h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500' />
-        <span className='ml-4'>{children}</span>
-      </Link>
-    </li>
-  );
-}
-
-function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
-  return (
-    <svg viewBox='0 0 24 24' aria-hidden='true' {...props}>
-      <path
-        fillRule='evenodd'
-        d='M6 5a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H6Zm.245 2.187a.75.75 0 0 0-.99 1.126l6.25 5.5a.75.75 0 0 0 .99 0l6.25-5.5a.75.75 0 0 0-.99-1.126L12 12.251 6.245 7.187Z'
-      />
-    </svg>
-  );
-}
-
-export const metadata: Metadata = {
-  title: 'About',
-  description:
-    'I’m Spencer Sharp. I live in New York City, where I design the future.',
-};
+import { GitHubIcon } from '../components/SocialIcons';
 
 export default function About() {
   return (
@@ -82,7 +32,7 @@ export default function About() {
           <p className='pl-2 px-2'>
             Professionele bachelor in de toegepaste informatica specialisatie in
             applicatieontwikkeling
-            <p className='text-slate-400 py-2'>Thomas more - Geel</p>
+            <p className='text-slate-400 py-2'>Thomas More - Geel</p>
           </p>
           <p>2016-2020</p>
           <p className='pl-2 py-2'>
@@ -173,10 +123,10 @@ export default function About() {
           <p className='text-xl font-semibold'>Werkervaring</p>
           <p>april 2021-februari 2023</p>
           <p className='pl-2'>
-            Jysk olen
+            Jysk Olen
             <p className='text-slate-400'>
-              Jobstudent in de winkel (Winkel aanvullen, kasse en klanten
-              verderhelpen)
+              Jobstudent in de winkel (Winkel aanvullen, kassa en klanten
+              helpen)
             </p>
           </p>
           <hr className='h-px my-4 border-0 bg-gray-700' />
