@@ -6,6 +6,7 @@ import hooyberghs from '../images/logos/hooyberghs.png';
 import googleDrive from '../images/logos/googleDrive.png';
 import flutter from '../images/logos/flutter.png';
 import RA from '../images/logos/RA.png';
+import aanstokerij from '../images/logos/aanstokerij.png';
 import { SimpleLayout } from '../components/SimpleLayout';
 import { Card } from '../components/Card';
 
@@ -21,6 +22,12 @@ const projects = [
     description: 'School',
     link: { href: '/projects/project4.0', label: 'info project 4.0' },
     logo: hooyberghs,
+  },
+  {
+    name: 'Nacht van de ondernemende student',
+    description: 'School -> extra activiteit',
+    link: { href: '/projects/nvdos', label: 'info nvdos' },
+    logo: aanstokerij,
   },
   {
     name: 'Google drive',

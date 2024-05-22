@@ -30,8 +30,8 @@ export default function About() {
           <p className='text-xl font-semibold py-2'>Opleiding</p>
           <p>2020-2024</p>
           <p className='pl-2 px-2'>
-            Professionele bachelor in de toegepaste informatica specialisatie in
-            applicatieontwikkeling
+            Professionele bachelor in de toegepaste informatica, specialisatie
+            in applicatieontwikkeling
             <p className='text-slate-400 py-2'>Thomas More - Geel</p>
           </p>
           <p>2016-2020</p>
