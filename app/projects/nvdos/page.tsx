@@ -73,6 +73,12 @@ export default function Krioen() {
         height={600}
         alt='Spelbord'
       />
+      <Tussentitel>Video pitch</Tussentitel>
+      <iframe
+        width='426'
+        height='240'
+        src='https://www.youtube.com/embed/6mM7xQ_dQnU'
+      ></iframe>
       <Back>/projects</Back>
     </SimpleLayout>
   );
