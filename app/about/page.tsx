@@ -48,7 +48,7 @@ export default function About() {
             priority
           />
           <div className='px-1 py-1 flex justify-center'>
-            <div className='font-bold text-base text-center'>creativiteit</div>
+            <div className='font-bold text-base text-center'>Creativiteit</div>
           </div>
         </div>
         <div className='w-40 rounded overflow-hidden shadow-lg'>
@@ -60,7 +60,7 @@ export default function About() {
             priority
           />
           <div className='px-1 py-1 flex justify-center'>
-            <div className='font-bold text-base text-center'>doorzetten</div>
+            <div className='font-bold text-base text-center'>Doorzetten</div>
           </div>
         </div>
         <div className='w-40 rounded overflow-hidden shadow-lg'>
@@ -73,7 +73,7 @@ export default function About() {
           />
           <div className='px-1 py-1 flex justify-center'>
             <div className='font-bold text-base text-center'>
-              probleemoplossend denken
+              Probleemoplossend denken
             </div>
           </div>
         </div>
