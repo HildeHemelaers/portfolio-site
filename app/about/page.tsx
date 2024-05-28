@@ -153,13 +153,13 @@ export default function About() {
                 <div className='bg-huisstijl-blue h-2.5 rounded-full w-5/6'></div>
               </div>
             </div>
-            <div className='col-span-1'>html/css</div>
+            <div className='col-span-1'>Html/css</div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
                 <div className='bg-huisstijl-blue h-2.5 rounded-full w-5/6'></div>
               </div>
             </div>
-            <div className='col-span-1'>.net</div>
+            <div className='col-span-1'>.Net</div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
                 <div className='bg-huisstijl-blue h-2.5 rounded-full w-3/4'></div>
