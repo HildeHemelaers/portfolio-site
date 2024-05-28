@@ -24,7 +24,7 @@ export default function About() {
       </div>
 
       <p className='text-xl font-semibold py-4'>Mijn soft skills</p>
-      <div className='flex gap-4 justify-between'>
+      <div className='flex gap-1 justify-between'>
         <div className='w-40 rounded overflow-hidden shadow-lg'>
           <Image
             src={oogVoorDetail}
