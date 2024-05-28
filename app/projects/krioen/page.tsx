@@ -49,6 +49,11 @@ export default function Krioen() {
         over het hosten van een website op een eigen domeinnaam.
       </p>
       <Tussentitel>Persoonlijke ontwikkeling</Tussentitel>
+      <p>
+        Als eerste leerde ik communiceren over een website en de hosting ervan
+        met een klant die zelf weinig kennis had over de mogelijkheden. Verder
+        weet ik nu hoe ik een website met eigen domeinnaam online moet zetten.
+      </p>
       <Tussentitel>Link naar het project</Tussentitel>
       <a
         target='_blank'

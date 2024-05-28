@@ -1,5 +1,9 @@
 import Image from 'next/image';
 import avatarImage from '@/app/images/avatar.jpg';
+import oogVoorDetail from '@/app/images/softSkills/oogVoorDetail.png';
+import creativiteit from '@/app/images/softSkills/creativiteit.png';
+import doorzetten from '@/app/images/softSkills/doorzetten.png';
+import probleemoplossendDenken from '@/app/images/softSkills/probleemoplossendDenken.png';
 
 import { Container } from '../components/Container';
 import { GitHubIcon } from '../components/SocialIcons';
@@ -18,16 +22,76 @@ export default function About() {
           priority
         />
       </div>
+
+      <p className='text-xl font-semibold py-4'>Mijn soft skills</p>
+      <div className='flex gap-4 justify-between'>
+        <div className='w-40 rounded overflow-hidden shadow-lg'>
+          <Image
+            src={oogVoorDetail}
+            alt=''
+            sizes={'10rem'}
+            className={'object-cover w-40'}
+            priority
+          />
+          <div className='px-1 py-1 flex justify-center'>
+            <div className='font-bold text-base text-center'>
+              Oog voor detail
+            </div>
+          </div>
+        </div>
+        <div className='w-40 rounded overflow-hidden shadow-lg'>
+          <Image
+            src={creativiteit}
+            alt=''
+            sizes={'10rem'}
+            className={'object-cover w-40'}
+            priority
+          />
+          <div className='px-1 py-1 flex justify-center'>
+            <div className='font-bold text-base text-center'>creativiteit</div>
+          </div>
+        </div>
+        <div className='w-40 rounded overflow-hidden shadow-lg'>
+          <Image
+            src={doorzetten}
+            alt=''
+            sizes={'10rem'}
+            className={'object-cover w-40'}
+            priority
+          />
+          <div className='px-1 py-1 flex justify-center'>
+            <div className='font-bold text-base text-center'>doorzetten</div>
+          </div>
+        </div>
+        <div className='w-40 rounded overflow-hidden shadow-lg'>
+          <Image
+            src={probleemoplossendDenken}
+            alt=''
+            sizes={'10rem'}
+            className={'object-cover w-40'}
+            priority
+          />
+          <div className='px-1 py-1 flex justify-center'>
+            <div className='font-bold text-base text-center'>
+              probleemoplossend denken
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr className='h-px my-5 border-0 bg-gray-700 mr-2' />
+
       <div className='grid grid-cols-3 pt-4 gap-2'>
         <div className='col-span-3 sm:col-span-1 pt-2'>
-          <p className='py-2'>1 juli 2002</p>
+          <p className=''>1 juli 2002</p>
           <br />
-          <p className='py-2'>0468/18.40.62</p>
-          <p className='pb-2'>hildehemelaers@hotmail.com</p>
+          <p className=''>0468/18.40.62</p>
+          <p className=''>hildehemelaers@hotmail.com</p>
           <br />
-          <p className='py-2'>2200 Herentals</p>
-          <hr className='h-px my-10 border-0 bg-gray-700 mr-2' />
-          <p className='text-xl font-semibold py-2'>Opleiding</p>
+          <p className=''>2200 Herentals</p>
+          <br />
+          <p className=''>Rijbewijs: type B</p>
+          <hr className='h-px my-5 border-0 bg-gray-700 mr-2' />
+          <p className='text-xl font-semibold pb-2'>Opleiding</p>
           <p>2020-2024</p>
           <p className='pl-2 px-2'>
             Professionele bachelor in de toegepaste informatica, specialisatie

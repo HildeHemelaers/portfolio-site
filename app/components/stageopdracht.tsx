@@ -9,11 +9,7 @@ const features = [
   },
   {
     name: 'Realisatie',
-    link: '#',
-  },
-  {
-    name: 'Samenvatting',
-    link: '#',
+    link: 'https://rt6zyqesuqnyty1i.public.blob.vercel-storage.com/Realisatie%20stage%202024%20Hilde%20Hemelaers-rXnYE5Ie4vODC3Zvx8IoMU8XAT1UFf.pdf',
   },
   {
     name: 'Reflectie',
@@ -21,7 +17,7 @@ const features = [
   },
   {
     name: 'Documentatie Energy!',
-    link: '#',
+    link: 'https://rt6zyqesuqnyty1i.public.blob.vercel-storage.com/documentatie%20energy-hdEvk3IVhj6NJyTkZRnG8SvMdLOawR.pdf',
   },
 ];
 
