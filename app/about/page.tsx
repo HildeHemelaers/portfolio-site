@@ -82,14 +82,14 @@ export default function About() {
 
       <div className='grid grid-cols-3 pt-4 gap-2'>
         <div className='col-span-3 sm:col-span-1 pt-2'>
-          <p className=''>1 juli 2002</p>
+          <p>1 juli 2002</p>
           <br />
-          <p className=''>0468/18.40.62</p>
-          <p className=''>hildehemelaers@hotmail.com</p>
+          <p>0468/18.40.62</p>
+          <p>hildehemelaers@hotmail.com</p>
           <br />
-          <p className=''>2200 Herentals</p>
+          <p>2200 Herentals</p>
           <br />
-          <p className=''>Rijbewijs: type B</p>
+          <p>Rijbewijs: type B</p>
           <hr className='h-px my-4 border-0 bg-gray-700' />
           <p className='text-xl font-semibold pb-2'>Opleiding</p>
           <p>2020-2024</p>
