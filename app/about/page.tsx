@@ -78,7 +78,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <hr className='h-px my-5 border-0 bg-gray-700 mr-2' />
+      <hr className='h-px my-4 border-0 bg-gray-700' />
 
       <div className='grid grid-cols-3 pt-4 gap-2'>
         <div className='col-span-3 sm:col-span-1 pt-2'>
@@ -90,7 +90,7 @@ export default function About() {
           <p className=''>2200 Herentals</p>
           <br />
           <p className=''>Rijbewijs: type B</p>
-          <hr className='h-px my-5 border-0 bg-gray-700 mr-2' />
+          <hr className='h-px my-4 border-0 bg-gray-700' />
           <p className='text-xl font-semibold pb-2'>Opleiding</p>
           <p>2020-2024</p>
           <p className='pl-2 px-2'>
@@ -99,11 +99,11 @@ export default function About() {
             <p className='text-slate-400 py-2'>Thomas More - Geel</p>
           </p>
           <p>2016-2020</p>
-          <p className='pl-2 py-2'>
+          <p className='pl-2 px-2'>
             Tso boekhouden informatica
             <p className='text-slate-400 py-2'>Campus de Vesten - Herentals</p>
           </p>
-          <hr className='h-px my-10 border-0 bg-gray-700 mr-2' />
+          <hr className='h-px my-4 border-0 bg-gray-700' />
           <a
             href='https://github.com/HildeH2002'
             target='_blank'
@@ -133,17 +133,30 @@ export default function About() {
             <p>Student professionele bachelor toegepaste informatica</p>
           </div>
           <hr className='h-px my-4 border-0 bg-gray-700' />
+
           <div className='grid grid-cols-3 gap-y-2'>
-            <div className='col-span-1'>html/css</div>
+            <div className='col-span-1'>Next.js</div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
                 <div className='bg-huisstijl-blue h-2.5 rounded-full w-5/6'></div>
               </div>
             </div>
-            <div className='col-span-1'>Angular</div>
+            <div className='col-span-1'>React</div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
-                <div className='bg-huisstijl-blue h-2.5 rounded-full w-4/6'></div>
+                <div className='bg-huisstijl-blue h-2.5 rounded-full w-5/6'></div>
+              </div>
+            </div>
+            <div className='col-span-1'>Pyton</div>
+            <div className='col-span-2'>
+              <div className='w-full bg-gray-200 rounded-full h-2.5 '>
+                <div className='bg-huisstijl-blue h-2.5 rounded-full w-5/6'></div>
+              </div>
+            </div>
+            <div className='col-span-1'>html/css</div>
+            <div className='col-span-2'>
+              <div className='w-full bg-gray-200 rounded-full h-2.5 '>
+                <div className='bg-huisstijl-blue h-2.5 rounded-full w-5/6'></div>
               </div>
             </div>
             <div className='col-span-1'>.net</div>
@@ -158,22 +171,10 @@ export default function About() {
                 <div className='bg-huisstijl-blue h-2.5 rounded-full w-3/4'></div>
               </div>
             </div>
-            <div className='col-span-1'>Next.js</div>
+            <div className='col-span-1'>Angular</div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
-                <div className='bg-huisstijl-blue h-2.5 rounded-full w-5/6'></div>
-              </div>
-            </div>
-            <div className='col-span-1'>Pyton</div>
-            <div className='col-span-2'>
-              <div className='w-full bg-gray-200 rounded-full h-2.5 '>
-                <div className='bg-huisstijl-blue h-2.5 rounded-full w-5/6'></div>
-              </div>
-            </div>
-            <div className='col-span-1'>React</div>
-            <div className='col-span-2'>
-              <div className='w-full bg-gray-200 rounded-full h-2.5 '>
-                <div className='bg-huisstijl-blue h-2.5 rounded-full w-5/6'></div>
+                <div className='bg-huisstijl-blue h-2.5 rounded-full w-4/6'></div>
               </div>
             </div>
             <div className='col-span-1'>Qlick sense</div>
