@@ -186,7 +186,7 @@ export default function About() {
           </div>
           <hr className='h-px my-4 border-0 bg-gray-700' />
           <p className='text-xl font-semibold'>Werkervaring</p>
-          <p>april 2021-februari 2023</p>
+          <p>April 2021-februari 2023</p>
           <p className='pl-2'>
             Jysk Olen
             <p className='text-slate-400'>
