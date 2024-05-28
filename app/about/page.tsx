@@ -28,7 +28,7 @@ export default function About() {
         <div className='w-40 rounded overflow-hidden shadow-lg'>
           <Image
             src={oogVoorDetail}
-            alt=''
+            alt='Oog voor detail'
             sizes={'10rem'}
             className={'object-cover w-40'}
             priority
@@ -42,7 +42,7 @@ export default function About() {
         <div className='w-40 rounded overflow-hidden shadow-lg'>
           <Image
             src={creativiteit}
-            alt=''
+            alt='Creativiteit'
             sizes={'10rem'}
             className={'object-cover w-40'}
             priority
@@ -54,7 +54,7 @@ export default function About() {
         <div className='w-40 rounded overflow-hidden shadow-lg'>
           <Image
             src={doorzetten}
-            alt=''
+            alt='Doorzetten'
             sizes={'10rem'}
             className={'object-cover w-40'}
             priority
@@ -66,7 +66,7 @@ export default function About() {
         <div className='w-40 rounded overflow-hidden shadow-lg'>
           <Image
             src={probleemoplossendDenken}
-            alt=''
+            alt='Probleemoplossend denken'
             sizes={'10rem'}
             className={'object-cover w-40'}
             priority
