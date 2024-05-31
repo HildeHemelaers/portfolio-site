@@ -13,7 +13,7 @@ const features = [
   },
   {
     name: 'Reflectie',
-    link: '#',
+    link: 'https://rt6zyqesuqnyty1i.public.blob.vercel-storage.com/Reflectie_Stage2024_HildeHemelaers-D0o2YXdLJXo4dOTuA0stmSZ8MW9SE7.pdf',
   },
   {
     name: 'Documentatie Energy!',

@@ -1,6 +1,13 @@
 import { SimpleLayout } from '@/app/components/SimpleLayout';
 import { Back } from '@/app/components/back';
 import { Tussentitel } from '@/app/components/tussentitel';
+import project from '@/app/images/projects/ra/ProjectRA.png';
+import useCase1 from '@/app/images/projects/ra/usecase1.jpg';
+import screen1a from '@/app/images/projects/ra/screen11.jpg';
+import screen1b from '@/app/images/projects/ra/screen12.jpg';
+import useCase2 from '@/app/images/projects/ra/usecase2.jpg';
+import screen2a from '@/app/images/projects/ra/screen21.jpg';
+import Image from 'next/image';
 
 export default function ProjectRa() {
   return (
@@ -69,7 +76,13 @@ export default function ProjectRa() {
         inzicht gekregen in wat er belangrijk is in het ontwerp van een
         applicatie voor deze doelgroep.
       </p>
-      <Tussentitel>Afbeeldingen van het project</Tussentitel>
+      <Tussentitel>Afbeeldingen en use cases van het project</Tussentitel>
+      <Image src={project} width={400} alt='Foto RA' className=' my-5' />
+      <Image src={useCase1} width={500} alt='Foto RA' className=' my-5 mt-10' />
+      <Image src={screen1a} width={400} alt='Foto RA' className=' my-5' />
+      <Image src={screen1b} width={300} alt='Foto RA' className=' my-5' />
+      <Image src={useCase2} width={500} alt='Foto RA' className=' my-5 mt-10' />
+      <Image src={screen2a} width={400} alt='Foto RA' className=' my-5' />
       <Back>/projects</Back>
     </SimpleLayout>
   );
