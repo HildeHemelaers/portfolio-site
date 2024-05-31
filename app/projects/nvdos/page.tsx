@@ -2,8 +2,10 @@ import { SimpleLayout } from '@/app/components/SimpleLayout';
 import { Back } from '@/app/components/back';
 import { Tussentitel } from '@/app/components/tussentitel';
 import Image from 'next/image';
-import spelbord from '@/app/images/projects/nvdos/Spelbord.png';
-import speluitleg from '@/app/images/projects/nvdos/Speluitleg.png';
+import tweet1 from '@/app/images/projects/nvdos/hacktory tweet 1.jpg';
+import tweet2 from '@/app/images/projects/nvdos/hacktory tweet 2.jpg';
+import tweet3 from '@/app/images/projects/nvdos/hacktory tweet 3.jpg';
+import bewijsFinale from '@/app/images/projects/nvdos/hacktory bewijs 4 punten.jpg';
 
 export default function Krioen() {
   return (
@@ -65,12 +67,26 @@ export default function Krioen() {
         leeftijdsgroepen kan gebruiken.
       </p>
       <Tussentitel>Afbeeldingen van het project</Tussentitel>
-      <Image src={spelbord} width={600} height={600} alt='Spelbord' />
+      <Image src={tweet1} width={400} height={400} alt='Spelbord' />
       <Image
         className='pt-2'
-        src={speluitleg}
-        width={600}
-        height={600}
+        src={tweet2}
+        width={400}
+        height={400}
+        alt='Spelbord'
+      />
+      <Image
+        className='pt-2'
+        src={tweet3}
+        width={400}
+        height={400}
+        alt='Spelbord'
+      />
+      <Image
+        className='pt-2'
+        src={bewijsFinale}
+        width={400}
+        height={400}
         alt='Spelbord'
       />
       <Tussentitel>Video pitch</Tussentitel>
