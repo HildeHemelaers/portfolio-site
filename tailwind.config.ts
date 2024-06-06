@@ -12,7 +12,7 @@ const config: Config = {
         heropattern: "url('/hexagons.svg)",
       },
       colors: {
-        'huisstijl-blue': '#26bdad',
+        'huisstijl-green': '#26bdad',
       },
       spacing: {
         '128': '32rem',
