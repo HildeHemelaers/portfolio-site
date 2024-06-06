@@ -11,7 +11,7 @@ import { GitHubIcon } from '../components/SocialIcons';
 export default function About() {
   return (
     <Container className='mt-16 sm:mt-32 relative'>
-      <div className='pl-4 h-36 w-full bg-huisstijl-blue rounded-md text-6xl text-white flex flex-row-reverse pr-4 font-semibold items-center space-between'>
+      <div className='pl-4 h-36 w-full bg-huisstijl-green rounded-md text-6xl text-white flex flex-row-reverse pr-4 font-semibold items-center space-between'>
         <p>Hilde Hemelaers</p>
         <div className='grow'></div>
         <Image
@@ -138,49 +138,49 @@ export default function About() {
             <div className='col-span-1'>Next.js</div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
-                <div className='bg-huisstijl-blue h-2.5 rounded-full w-5/6'></div>
+                <div className='bg-huisstijl-green h-2.5 rounded-full w-5/6'></div>
               </div>
             </div>
             <div className='col-span-1'>React</div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
-                <div className='bg-huisstijl-blue h-2.5 rounded-full w-5/6'></div>
+                <div className='bg-huisstijl-green h-2.5 rounded-full w-5/6'></div>
               </div>
             </div>
             <div className='col-span-1'>Pyton</div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
-                <div className='bg-huisstijl-blue h-2.5 rounded-full w-5/6'></div>
+                <div className='bg-huisstijl-green h-2.5 rounded-full w-5/6'></div>
               </div>
             </div>
             <div className='col-span-1'>Html/css</div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
-                <div className='bg-huisstijl-blue h-2.5 rounded-full w-5/6'></div>
+                <div className='bg-huisstijl-green h-2.5 rounded-full w-5/6'></div>
               </div>
             </div>
             <div className='col-span-1'>.Net</div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
-                <div className='bg-huisstijl-blue h-2.5 rounded-full w-3/4'></div>
+                <div className='bg-huisstijl-green h-2.5 rounded-full w-3/4'></div>
               </div>
             </div>
             <div className='col-span-1'>Java</div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
-                <div className='bg-huisstijl-blue h-2.5 rounded-full w-3/4'></div>
+                <div className='bg-huisstijl-green h-2.5 rounded-full w-3/4'></div>
               </div>
             </div>
             <div className='col-span-1'>Angular</div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
-                <div className='bg-huisstijl-blue h-2.5 rounded-full w-4/6'></div>
+                <div className='bg-huisstijl-green h-2.5 rounded-full w-4/6'></div>
               </div>
             </div>
             <div className='col-span-1'>Qlick sense</div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
-                <div className='bg-huisstijl-blue h-2.5 rounded-full w-1/2'></div>
+                <div className='bg-huisstijl-green h-2.5 rounded-full w-1/2'></div>
               </div>
             </div>
           </div>
