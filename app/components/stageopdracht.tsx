@@ -31,13 +31,13 @@ export function StageOpdracht() {
               <a
                 target='_blank'
                 href='https://stage-energy.vercel.app/'
-                className='text-base font-semibold leading-7 text-teal-500 hover:text-teal-600 flex items-center gap-2'
+                className='text-base font-semibold leading-7 text-huisstijl-green hover:text-[#697A61] flex items-center gap-2'
               >
                 <GlobeAltIcon className='h-4 w-4' />
                 stage-energy.vercel.app
               </a>
               <p className='my-2 mb-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
-                Stage documentatie
+                Stagedocumentatie
               </p>
               <ul
                 role='list'
@@ -63,7 +63,7 @@ export function StageOpdracht() {
                       <a
                         target='_blank'
                         href={item.link}
-                        className='font-medium text-teal-500 hover:text-teal-600'
+                        className='font-medium text-huisstijl-green hover:text-[#697A61]'
                       >
                         Download
                       </a>

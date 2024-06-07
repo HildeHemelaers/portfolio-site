@@ -127,12 +127,12 @@ function NavItem({
         href={href}
         className={clsx(
           'relative block px-3 py-2 transition text-xl',
-          isActive ? 'text-teal-500' : 'hover:text-teal-500'
+          isActive ? 'text-[#697A61]' : 'hover:text-[#697A61]'
         )}
       >
         {children}
         {isActive && (
-          <span className='absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0' />
+          <span className='absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-[#697A61]/0 via-[#697A61]/40 to-[#697A61]/0' />
         )}
       </Link>
     </li>

@@ -7,6 +7,7 @@ import googleDrive from '../images/logos/googleDrive.png';
 import flutter from '../images/logos/flutter.png';
 import RA from '../images/logos/RA.png';
 import aanstokerij from '../images/logos/aanstokerij.png';
+import ismart from '../images/logos/ismart.png';
 import { SimpleLayout } from '../components/SimpleLayout';
 import { Card } from '../components/Card';
 
@@ -25,18 +26,18 @@ const projects = [
   },
   {
     name: 'Nacht van de ondernemende student',
-    description: 'School -> extra activiteit',
+    description: `School (extra activiteit)`,
     link: { href: '/projects/nvdos', label: 'info nvdos' },
     logo: aanstokerij,
   },
   {
-    name: 'Google drive',
+    name: 'Implementatie Google workspace',
     description: 'Scouts',
     link: { href: '/projects/googleDrive', label: 'info google drive' },
     logo: googleDrive,
   },
   {
-    name: 'App mobile dev and ar',
+    name: 'App mobile dev and AR',
     description: 'School',
     link: { href: '/projects/appMobileDevAndAr', label: 'info app' },
     logo: flutter,
@@ -49,6 +50,15 @@ const projects = [
       label: 'info project requirement analysis',
     },
     logo: RA,
+  },
+  {
+    name: 'Stage',
+    description: 'School',
+    link: {
+      href: '/stage',
+      label: 'info stage',
+    },
+    logo: ismart,
   },
 ];
 
@@ -92,7 +102,7 @@ export default function Projects() {
               <Card.Link href={project.link.href}>{project.name}</Card.Link>
             </h2>
             <Card.Description>{project.description}</Card.Description>
-            <p className='relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500'>
+            <p className='relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-huisstijl-green'>
               <LinkIcon className='h-6 w-6 flex-none' />
               <span className='ml-2'>{project.link.label}</span>
             </p>

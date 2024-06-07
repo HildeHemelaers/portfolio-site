@@ -47,22 +47,17 @@ export default async function Home() {
       <Container className='mt-9'>
         <div className='max-w-2xl'>
           <h1 className='text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl '>
-            Student toegepaste informatica - applicatie ontwikkeling.
+            Student toegepaste informatica: applicatieontwikkeling.
           </h1>
           <p className='mt-6 text-base text-zinc-600 '>
             Ik ben Hilde Hemelaers, student applicatieontwikkeling aan de Thomas
             More hogeschool in Geel. Ik ben nu bezig met mijn derde jaar en
             studeer dus dit jaar (juni 2024) af. In mijn portfolio kan u lezen
-            Wat ik tijdens mijn studie al bereikt heb.
-            {/* <br />
-          Mijn hobby is Akabe. Dit is een scoutsorganisatie voor kinderen met en zonder een beperking. 
-          Na 7 jaar lid te zijn geweest waarin ik veel geleerd heb over de omgang met deze mensen, ben ik 
-          vier jaar leiding waarvan één jaar groepsleider geweest. Ook ben ik graag creatief bezig in mijn 
-          vrije tijd. */}
+            wat ik tijdens mijn studie al bereikt heb.
             <br />
-            Welkom op mijn protfolio website!
+            Welkom op mijn portfolio!
           </p>
-          <div className='mt-6 flex gap-6'>
+          {/* <div className='mt-6 flex gap-6'>
             <a
               href='https://github.com/HildeH2002'
               target='_blank'
@@ -70,7 +65,7 @@ export default async function Home() {
             >
               <GitHubIcon className='h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 ' />
             </a>
-          </div>
+          </div> */}
         </div>
       </Container>
       <Photos />

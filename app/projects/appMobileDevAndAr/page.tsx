@@ -1,6 +1,8 @@
 import { SimpleLayout } from '@/app/components/SimpleLayout';
 import { Back } from '@/app/components/back';
 import { Tussentitel } from '@/app/components/tussentitel';
+import screen from '@/app/images/projects/mdevar/screen.png';
+import Image from 'next/image';
 
 export default function AppMobileDevAndAr() {
   return (
@@ -8,6 +10,12 @@ export default function AppMobileDevAndAr() {
       title='Project mobile development and augmented reality'
       intro='Applicatie met Flutter en Wikitude.'
     >
+      <Image
+        src={screen}
+        width={300}
+        alt='Screenshot AR app'
+        className='object-contain'
+      />
       <Tussentitel>Achtergrond en context</Tussentitel>
       <p>
         Voor het vak <text className='italic '>Mobile development and AR</text>{' '}

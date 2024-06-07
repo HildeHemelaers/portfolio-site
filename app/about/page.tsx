@@ -91,18 +91,47 @@ export default function About() {
           <br />
           <p>Rijbewijs: type B</p>
           <hr className='h-px my-4 border-0 bg-gray-700' />
-          <p className='text-xl font-semibold pb-2'>Opleiding</p>
-          <p>2020-2024</p>
-          <p className='pl-2 px-2'>
-            Professionele bachelor in de toegepaste informatica, specialisatie
-            in applicatieontwikkeling
-            <p className='text-slate-400 py-2'>Thomas More - Geel</p>
+          <p className='text-xl font-semibold'>Vrije tijd</p>
+          <p>2022-2023</p>
+          <p className='pl-2'>
+            Groepsleiding
+            <p className='text-slate-400'>
+              <a
+                  target='_blank'
+                  href='https://depioen.be/wie-zijn-wij/'
+                  className='hover:text-[##697A61] flex items-center gap-2'
+                >
+                Akabe de Pioen
+              </a>
+            </p>
           </p>
-          <p>2016-2020</p>
-          <p className='pl-2 px-2'>
-            Tso boekhouden informatica
-            <p className='text-slate-400 py-2'>Campus de Vesten - Herentals</p>
+          <p>2019-2023</p>
+          <p className='pl-2'>
+            Leiding
+            <p className='text-slate-400'>
+              <a
+                  target='_blank'
+                  href='https://depioen.be/wie-zijn-wij/'
+                  className='hover:text-[##697A61] flex items-center gap-2'
+                >
+                Akabe de Pioen
+              </a>
+            </p>
           </p>
+          <p>2019</p>
+          <p className='pl-2'>
+            Animatorattest
+            <p className='text-slate-400'>
+              <a
+                  target='_blank'
+                  href='https://www.krunsj.be/'
+                  className='hover:text-[##697A61] flex items-center gap-2'
+                >
+                Krunsj
+              </a>
+            </p>
+          </p>
+          
           <hr className='h-px my-4 border-0 bg-gray-700' />
           <a
             href='https://github.com/HildeH2002'
@@ -135,55 +164,140 @@ export default function About() {
           <hr className='h-px my-4 border-0 bg-gray-700' />
 
           <div className='grid grid-cols-3 gap-y-2'>
-            <div className='col-span-1'>Next.js</div>
+            <div className='col-span-1'>
+              <a
+                target='_blank'
+                href='https://nextjs.org/'
+                className='hover:text-[##697A61] flex items-center gap-2'
+              >
+                Next.js
+              </a>
+            </div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
                 <div className='bg-huisstijl-green h-2.5 rounded-full w-5/6'></div>
               </div>
             </div>
-            <div className='col-span-1'>React</div>
+            <div className='col-span-1'>
+              <a
+                target='_blank'
+                href='https://react.dev/'
+                className='hover:text-[##697A61] flex items-center gap-2'
+              >
+                React
+              </a>
+            </div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
                 <div className='bg-huisstijl-green h-2.5 rounded-full w-5/6'></div>
               </div>
             </div>
-            <div className='col-span-1'>Pyton</div>
+            <div className='col-span-1'>
+              <a
+                target='_blank'
+                href='https://www.python.org/'
+                className='hover:text-[##697A61] flex items-center gap-2'
+              >
+                Python
+              </a>
+            </div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
                 <div className='bg-huisstijl-green h-2.5 rounded-full w-5/6'></div>
               </div>
             </div>
-            <div className='col-span-1'>Html/css</div>
+            <div className='col-span-1'>
+              Html/css
+            </div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
                 <div className='bg-huisstijl-green h-2.5 rounded-full w-5/6'></div>
               </div>
             </div>
-            <div className='col-span-1'>.Net</div>
+            <div className='col-span-1'>
+              <a
+                target='_blank'
+                href='https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet'
+                className='hover:text-[##697A61] flex items-center gap-2'
+              >
+                .Net
+              </a>
+            </div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
                 <div className='bg-huisstijl-green h-2.5 rounded-full w-3/4'></div>
               </div>
             </div>
-            <div className='col-span-1'>Java</div>
+            <div className='col-span-1'>
+              <a
+                target='_blank'
+                href='https://www.java.com/nl/'
+                className='hover:text-[##697A61] flex items-center gap-2'
+              >
+                Java
+              </a>
+            </div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
                 <div className='bg-huisstijl-green h-2.5 rounded-full w-3/4'></div>
               </div>
             </div>
-            <div className='col-span-1'>Angular</div>
+            <div className='col-span-1'>
+              <a
+                target='_blank'
+                href='https://angular.dev/'
+                className='hover:text-[##697A61] flex items-center gap-2'
+              >
+                Angular
+              </a>
+            </div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
                 <div className='bg-huisstijl-green h-2.5 rounded-full w-4/6'></div>
               </div>
             </div>
-            <div className='col-span-1'>Qlick sense</div>
+            <div className='col-span-1'>
+              <a
+                target='_blank'
+                href='https://www.qlik.com/us/products/qlik-sense'
+                className='hover:text-[##697A61] flex items-center gap-2'
+              >
+                Qlik sense
+              </a>
+            </div>
             <div className='col-span-2'>
               <div className='w-full bg-gray-200 rounded-full h-2.5 '>
                 <div className='bg-huisstijl-green h-2.5 rounded-full w-1/2'></div>
               </div>
             </div>
           </div>
+          <hr className='h-px my-4 border-0 bg-gray-700' />
+          <p className='text-xl font-semibold pb-2'>Opleiding</p>
+          <p>2020-2024</p>
+          <a
+            target='_blank'
+            href='https://thomasmore.be/nl/opleidingen/professionele-bachelor/toegepaste-informatica/application-development/geel/basistraject'
+            className='hover:text-[##697A61] flex items-center gap-2'
+          >
+            <p className='pl-2 px-2'>
+              Professionele bachelor in de toegepaste informatica, specialisatie
+              in applicatieontwikkeling
+              <p className='text-slate-400 py-2'>Thomas More - Geel</p>
+            </p>
+          </a>
+          <p>2016-2020</p>
+          <a
+            target='_blank'
+            href='https://www.campusdevesten.be/cms/campus-de-vesten-herentals-2/campus-de-vesten-herentals-aanbod/duplicated-campus-de-vesten-herentals-aanbod-tweede-graad-2/duplicated-campus-de-vesten-herentals-aanbod-derde-graad/duplicated-campus-de-vesten-herentals-aanbod-derde-graad-boekhouden-informatica/'
+            className='hover:text-[##697A61] flex items-center gap-2'
+          >
+            <p className='pl-2 px-2'>
+              Tso boekhouden informatica
+              <p className='text-slate-400 py-2'>Campus de Vesten - Herentals</p>
+            </p>
+          </a>
+          
+          
           <hr className='h-px my-4 border-0 bg-gray-700' />
           <p className='text-xl font-semibold'>Werkervaring</p>
           <p>April 2021-februari 2023</p>
@@ -193,23 +307,6 @@ export default function About() {
               Jobstudent in de winkel (Winkel aanvullen, kassa en klanten
               helpen)
             </p>
-          </p>
-          <hr className='h-px my-4 border-0 bg-gray-700' />
-          <p className='text-xl font-semibold'>Vrije tijd</p>
-          <p>2022-2023</p>
-          <p className='pl-2'>
-            Groepsleiding
-            <p className='text-slate-400'>Akabe de Pioen</p>
-          </p>
-          <p>2019-2023</p>
-          <p className='pl-2'>
-            Leiding
-            <p className='text-slate-400'>Akabe de Pioen</p>
-          </p>
-          <p>2019</p>
-          <p className='pl-2'>
-            Animatorattest
-            <p className='text-slate-400'>Krunsj</p>
           </p>
         </div>
       </div>

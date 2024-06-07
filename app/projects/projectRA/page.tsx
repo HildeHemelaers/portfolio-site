@@ -15,6 +15,7 @@ export default function ProjectRa() {
       title='Project requirements analysis'
       intro='IT projecten analyseren en documenteren.'
     >
+      <Image src={project} width={600} alt='Foto RA' />
       <Tussentitel>Achtergrond en context</Tussentitel>
       <p>
         Project <text className='italic '>requirements analysis</text> was een
@@ -76,8 +77,7 @@ export default function ProjectRa() {
         inzicht gekregen in wat er belangrijk is in het ontwerp van een
         applicatie voor deze doelgroep.
       </p>
-      <Tussentitel>Afbeeldingen en use cases van het project</Tussentitel>
-      <Image src={project} width={400} alt='Foto RA' className=' my-5' />
+      <Tussentitel>Use cases van het project</Tussentitel>
       <Image src={useCase1} width={500} alt='Foto RA' className=' my-5 mt-10' />
       <Image src={screen1a} width={400} alt='Foto RA' className=' my-5' />
       <Image src={screen1b} width={300} alt='Foto RA' className=' my-5' />

@@ -2,6 +2,8 @@ import { SimpleLayout } from '@/app/components/SimpleLayout';
 import { Back } from '@/app/components/back';
 import { Tussentitel } from '@/app/components/tussentitel';
 import { GlobeAltIcon } from '@heroicons/react/20/solid';
+import PhotoKrioen from '@/app/images/projects/krioen/krioen.png';
+import Image from 'next/image';
 
 export default function Krioen() {
   return (
@@ -9,6 +11,17 @@ export default function Krioen() {
       title='Krioen'
       intro='Krioen is de overkoepelende vzw van Akabe de Pioen en Chiro Kringel Elsum voor de bouw van hun gezamenlijke  lokalen.'
     >
+      <a
+        target='_blank'
+        href='https://www.dekrioen.be/'
+      >
+        <Image
+          src={PhotoKrioen}
+          width={600}
+          alt='Foto krioen'
+          className='object-contain'
+        />
+      </a>
       <Tussentitel>Achtergrond en context</Tussentitel>
       <p>
         April 2024 kreeg ik de vraag van vzw krioen of ik voor een website kon
@@ -18,7 +31,7 @@ export default function Krioen() {
         kunnen spreken met duidelijke informatie op een eigen website.
       </p>
       <p className='pt-2'>
-        Aangezien niemand bij de vzw ervaring had met het maken van een website
+        Aangezien niemand bij de vzw ervaring had met het maken van een website,
         kwamen ze bij mij terecht. Zelf ben ik jaren lid en leiding geweest bij
         Akabe de Pioen. Hierdoor ben ik gekend bij de leden van de vzw en wisten
         ze ook dat dit iets is waar ik voor kan zorgen.
@@ -58,7 +71,7 @@ export default function Krioen() {
       <a
         target='_blank'
         href='https://dekrioen.be/'
-        className='hover:text-teal-600 flex items-center gap-2'
+        className='hover:text-[##697A61] flex items-center gap-2'
       >
         <GlobeAltIcon className='h-4 w-4' />
         dekrioen.be

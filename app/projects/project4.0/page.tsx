@@ -1,6 +1,9 @@
 import { SimpleLayout } from '@/app/components/SimpleLayout';
 import { Back } from '@/app/components/back';
 import { Tussentitel } from '@/app/components/tussentitel';
+import Screen from '@/app/images/projects/40/videoscreen.png';
+import Screen2 from '@/app/images/projects/40/screen2.png';
+import Image from 'next/image';
 
 export default function Project40() {
   return (
@@ -8,6 +11,21 @@ export default function Project40() {
       title='Project 4.0'
       intro='Samenwerking tussen verschillende velden binnen de IT.'
     >
+      <div className='flex-col flex xl:flex-row gap-4'>
+        <Image
+          src={Screen}
+          width={600}
+          alt='Foto krioen'
+          className='object-contain'
+        />
+        <Image
+          src={Screen2}
+          width={410}
+          alt='Foto krioen'
+          className='object-contain'
+        />
+      </div>
+      
       <Tussentitel>Achtergrond en context</Tussentitel>
       <p>
         Project 4.0 was een vak op school in het derde jaar. We werkten voor het

@@ -5,6 +5,7 @@ import Image from 'next/image';
 import tweet1 from '@/app/images/projects/nvdos/hacktory tweet 1.jpg';
 import tweet2 from '@/app/images/projects/nvdos/hacktory tweet 2.jpg';
 import tweet3 from '@/app/images/projects/nvdos/hacktory tweet 3.jpg';
+import spelbord from '@/app/images/projects/nvdos/Spelbord.png'
 import bewijsFinale from '@/app/images/projects/nvdos/hacktory bewijs 4 punten.jpg';
 
 export default function Krioen() {
@@ -13,6 +14,13 @@ export default function Krioen() {
       title='Nacht van de ondernemende student'
       intro='Een hackathon voor en door studenten.'
     >
+      <Image
+        className='pt-2'
+        src={spelbord}
+        width={600}
+        height={600}
+        alt='Spelbord'
+      />
       <Tussentitel>Achtergrond en context</Tussentitel>
       <p>
         Nacht van de ondernemende student is een hackathon die door gaat om
@@ -67,27 +75,27 @@ export default function Krioen() {
         leeftijdsgroepen kan gebruiken.
       </p>
       <Tussentitel>Afbeeldingen van het project</Tussentitel>
-      <Image src={tweet1} width={400} height={400} alt='Spelbord' />
+      <Image src={tweet1} width={400} height={400} alt='Tweet1' />
       <Image
         className='pt-2'
         src={tweet2}
         width={400}
         height={400}
-        alt='Spelbord'
+        alt='Tweet2'
       />
       <Image
         className='pt-2'
         src={tweet3}
         width={400}
         height={400}
-        alt='Spelbord'
+        alt='Tweet3'
       />
       <Image
         className='pt-2'
         src={bewijsFinale}
         width={400}
         height={400}
-        alt='Spelbord'
+        alt='Bewijs finale'
       />
       <Tussentitel>Video pitch</Tussentitel>
       <iframe

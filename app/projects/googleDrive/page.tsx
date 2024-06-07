@@ -2,14 +2,21 @@ import { SimpleLayout } from '@/app/components/SimpleLayout';
 import { Back } from '@/app/components/back';
 import { Tussentitel } from '@/app/components/tussentitel';
 import photoDrive from '@/app/images/projects/googleDrive/drive.jpg';
+import photoDriveSmall from '@/app/images/projects/googleDrive/driveSmall.jpg';
 import Image from 'next/image';
 
 export default function GoogleDrive() {
   return (
     <SimpleLayout
-      title='Google drive'
+      title='Implementatie Google workspace'
       intro="Voor een jeugdbeweging is het belangrijk om hun bestanden op een overzichtelijke manier te beheren. Ook foto's moeten bewaard worden en dit op een manier die in norm is met de GDPR wetgeving."
     >
+      <Image
+        src={photoDriveSmall}
+        width={400}
+        alt='Foto drive'
+        className='object-contain'
+      />
       <Tussentitel>Achtergrond en context</Tussentitel>
       <p>
         De pioen bestond al bijna 25 jaar en sinds ongeveer 10 jaar hielden we
