@@ -43,15 +43,15 @@ export default function Stage() {
   return (
     <SimpleLayout
       title='Ontwikkelen van SaaS-platform voor energiemanagement van gebouwen'
-      intro='Ik kreeg de kans aan een zeer boeiende een leerrijke stageopdracht te werken bij iSmart te Westerlo. Hieronder kunt u alles terugvinden in verband met mijn stage.'
+      intro='Ik kreeg de kans aan een zeer boeiende en leerrijke stageopdracht te werken bij iSmart te Westerlo. Hieronder kunt u alles terugvinden in verband met mijn stage.'
     >
       <Tussentitel>Aanleiding en achtergrond </Tussentitel>
       <p>ISmart maakt bedrijven en gebouwen efficiënt. In Lier is er een site met verschillende gebouwen en appartementen van O3shift. De appartementen hebben gezamenlijke zonnepanelen, maar deze energie moet zo efficiënt mogelijk verdeeld worden over 70 appartementen. De projectontwikkelaar heeft zelf veel van deze appartementen in eigen beheer en wil dus geen verspilling van energie. Hij wil alles kunnen monitoren via een applicatie.</p>
-      <p className='pt-2'>Voor deze klant heeft iSmart een oplossing op maat gemaakt, maar natuurlijk bevind deze projectontwikkelaar zich niet in een unieke situatie. Steeds meer sites hebben meerdere gebouwen met meerdere appartementen. Deze worden ook steeds energie neutraler. Niet iedereen die zich in deze situatie bevind heeft het budget om een oplossing op maat te laten ontwikkelen. Ook is bij veel van deze personen en bedrijven het budget dat ze hierin zouden moeten investeren veel hoger dan de winst die ze met de data van de applicatie zouden kunnen bereiken. Om de oplossing die ze nu op maat hebben gemaakt voor één klant toegankelijk te maken voor meerdere bedrijven wil iSmart een platform ontwikkelen. Hierop kunnen bedrijven een abonnement afsluiten met maandelijkse betaling aan de hand van de hoeveelheid appartementen, sensoren, data, …  </p>
+      <p className='pt-2'>Voor deze klant heeft iSmart een oplossing op maat gemaakt, maar natuurlijk bevindt deze projectontwikkelaar zich niet in een unieke situatie. Steeds meer sites hebben meerdere gebouwen met meerdere appartementen. Deze worden ook steeds energieneutraler. Niet iedereen die zich in deze situatie bevindt heeft het budget om een oplossing op maat te laten ontwikkelen. Ook is bij veel van deze personen en bedrijven het budget dat ze hierin zouden moeten investeren veel hoger dan de winst die ze met de data van de applicatie zouden kunnen bereiken. Om de oplossing die ze nu op maat hebben gemaakt voor één klant toegankelijk te maken voor meerdere bedrijven wil iSmart een platform ontwikkelen. Hierop kunnen bedrijven een abonnement afsluiten met maandelijkse betaling aan de hand van de hoeveelheid appartementen, sensoren, data, …  </p>
       <p className='pt-2'>Tijdens mijn stageperiode heb ik dit idee voor een SaaS-platform omgezet naar een volledig werkende proof of concept. Dit deed ik samen met een andere student, namelijk Daan Michielsen. Hij studeert ook toegepaste informatica aan Thomas More in Geel maar dan in de afstudeerrichting artificiële intelligentie.</p>
       <Tussentitel>Tijdlijn stage</Tussentitel>
       <div className='space-y-20'>
-        <SpeakingSection title='Verschillende Fases stage'>
+        <SpeakingSection title='Verschillende fases stage'>
           {/* TODO - verschillende fases uitschrijven met uitleg */}
           <Appearance
             title='Analyse'
@@ -70,7 +70,7 @@ export default function Stage() {
           />
           <Appearance
             title='Afsluiting'
-            description='In deze fase heb ik me bezig gehouden met alle documentatie voor mijn stage in orde te maken.'
+            description='In deze fase heb ik me bezig gehouden met alle documentatie om mijn stage in orde te maken.'
             event='Week 14 - week 15 (20/05-31/05)'
           />
         </SpeakingSection>

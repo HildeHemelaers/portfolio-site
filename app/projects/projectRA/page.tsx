@@ -37,9 +37,9 @@ export default function ProjectRa() {
       </p>
       <Tussentitel>Gebruikte technologieën</Tussentitel>
       <p>
-        Aan het einde van het project leverden we een Analyse-en-ontwerprapport
+        Aan het einde van het project leverden we een analyse-en-ontwerprapport
         op en een prototype. Het prototype is gemaakt in Axure. Het
-        Analyse-en-ontwerprapport bevatte onderstaande onderdelen.
+        analyse-en-ontwerprapport bevatte onderstaande onderdelen:
       </p>
       <ul className='list-disc ml-10 pt-2'>
         <li>

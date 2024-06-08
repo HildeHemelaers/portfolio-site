@@ -29,7 +29,7 @@ export default function AppMobileDevAndAr() {
       <Tussentitel>Doelstellingen van het project</Tussentitel>
       <p>
         Het project bestond uit twee applicaties. Er waren per applicatie een
-        aantal voorwaarden om te slagen.
+        aantal voorwaarden om te slagen:
       </p>
       <ul className='list-disc ml-10 pt-2'>
         <li>
@@ -75,7 +75,7 @@ export default function AppMobileDevAndAr() {
       <p>
         Aangezien ik dit vak twee keer gevolgd heb, heb ik zeker veel
         bijgeleerd. Zo heb ik geleerd dat uitstellen niet altijd de beste optie
-        is. Ook heb ik geleerd dat het belangrijk is eerste de lessen en
+        is. Ook heb ik geleerd dat het belangrijk is eerst de lessen en
         oefeningen te maken voor aan het project te beginnen. Bij een project in
         team (want het eerste jaar heb ik dit project wel in duo gedaan) is het
         ook zeer belangrijk om duidelijk en voldoende te communiceren. Ook
