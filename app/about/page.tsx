@@ -151,7 +151,7 @@ export default function About() {
           
           <hr className='h-px my-4 border-0 bg-gray-700' />
           <a
-            href='https://rt6zyqesuqnyty1i.public.blob.vercel-storage.com/CurriculumVitae-VCxBTCb5qwr7lf0Uw2k5799zSHajsS.pdf'
+            href='https://rt6zyqesuqnyty1i.public.blob.vercel-storage.com/CurriculumVitae-QPGgi80haB3ewwRH1Oqa2FNaCMLmGj.pdf'
             target='_blank'
             className='bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
           >
