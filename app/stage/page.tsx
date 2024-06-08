@@ -3,6 +3,7 @@ import { Section } from '../components/Section';
 import { Card } from '../components/Card';
 import { SimpleLayout } from '../components/SimpleLayout';
 import { StageOpdracht } from '../components/stageopdracht';
+import { Tussentitel } from '../components/tussentitel';
 
 function SpeakingSection({
   children,
@@ -44,6 +45,11 @@ export default function Stage() {
       title='Ontwikkelen van SaaS-platform voor energiemanagement van gebouwen'
       intro='Ik kreeg de kans aan een zeer boeiende een leerrijke stageopdracht te werken bij iSmart te Westerlo. Hieronder kunt u alles terugvinden in verband met mijn stage.'
     >
+      <Tussentitel>Aanleiding en achtergrond </Tussentitel>
+      <p>ISmart maakt bedrijven en gebouwen efficiënt. In Lier is er een site met verschillende gebouwen en appartementen van O3shift. De appartementen hebben gezamenlijke zonnepanelen, maar deze energie moet zo efficiënt mogelijk verdeeld worden over 70 appartementen. De projectontwikkelaar heeft zelf veel van deze appartementen in eigen beheer en wil dus geen verspilling van energie. Hij wil alles kunnen monitoren via een applicatie.</p>
+      <p className='pt-2'>Voor deze klant heeft iSmart een oplossing op maat gemaakt, maar natuurlijk bevind deze projectontwikkelaar zich niet in een unieke situatie. Steeds meer sites hebben meerdere gebouwen met meerdere appartementen. Deze worden ook steeds energie neutraler. Niet iedereen die zich in deze situatie bevind heeft het budget om een oplossing op maat te laten ontwikkelen. Ook is bij veel van deze personen en bedrijven het budget dat ze hierin zouden moeten investeren veel hoger dan de winst die ze met de data van de applicatie zouden kunnen bereiken. Om de oplossing die ze nu op maat hebben gemaakt voor één klant toegankelijk te maken voor meerdere bedrijven wil iSmart een platform ontwikkelen. Hierop kunnen bedrijven een abonnement afsluiten met maandelijkse betaling aan de hand van de hoeveelheid appartementen, sensoren, data, …  </p>
+      <p className='pt-2'>Tijdens mijn stageperiode heb ik dit idee voor een SaaS-platform omgezet naar een volledig werkende proof of concept. Dit deed ik samen met een andere student, namelijk Daan Michielsen. Hij studeert ook toegepaste informatica aan Thomas More in Geel maar dan in de afstudeerrichting artificiële intelligentie.</p>
+      <Tussentitel>Tijdlijn stage</Tussentitel>
       <div className='space-y-20'>
         <SpeakingSection title='Verschillende Fases stage'>
           {/* TODO - verschillende fases uitschrijven met uitleg */}

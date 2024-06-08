@@ -1,5 +1,6 @@
 import { SimpleLayout } from '@/app/components/SimpleLayout';
 import { Back } from '@/app/components/back';
+import { ProjectNavigation } from '@/app/components/projectNavigation';
 import { Tussentitel } from '@/app/components/tussentitel';
 import screen from '@/app/images/projects/mdevar/screen.png';
 import Image from 'next/image';
@@ -10,6 +11,7 @@ export default function AppMobileDevAndAr() {
       title='Project mobile development and augmented reality'
       intro='Applicatie met Flutter en Wikitude.'
     >
+      <ProjectNavigation href1='/projects/googleDrive' href2='/projects' href3='/projects/projectRA' />
       <Image
         src={screen}
         width={300}
@@ -87,7 +89,7 @@ export default function AppMobileDevAndAr() {
         height='240'
         src='https://www.youtube.com/embed/oaopJjkADss'
       ></iframe>
-      <Back>/projects</Back>
+      
     </SimpleLayout>
   );
 }

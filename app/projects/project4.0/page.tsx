@@ -4,6 +4,7 @@ import { Tussentitel } from '@/app/components/tussentitel';
 import Screen from '@/app/images/projects/40/videoscreen.png';
 import Screen2 from '@/app/images/projects/40/screen2.png';
 import Image from 'next/image';
+import { ProjectNavigation } from '@/app/components/projectNavigation';
 
 export default function Project40() {
   return (
@@ -11,6 +12,7 @@ export default function Project40() {
       title='Project 4.0'
       intro='Samenwerking tussen verschillende velden binnen de IT.'
     >
+      <ProjectNavigation href1='/projects/krioen' href2='/projects' href3='/projects/nvdos' />
       <div className='flex-col flex xl:flex-row gap-4'>
         <Image
           src={Screen}
@@ -107,7 +109,7 @@ export default function Project40() {
         height='240'
         src='https://www.youtube.com/embed/FuzaasrWwbU'
       ></iframe>
-      <Back>/projects</Back>
+      
     </SimpleLayout>
   );
 }

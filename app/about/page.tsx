@@ -22,9 +22,7 @@ export default function About() {
           priority
         />
       </div>
-
-      <p className='text-xl font-semibold py-4'>Mijn soft skills</p>
-      <div className='flex gap-1 justify-between'>
+      <div className='flex gap-1 justify-between mt-4'>
         <div className='w-40 rounded overflow-hidden shadow-lg'>
           <Image
             src={oogVoorDetail}
@@ -91,6 +89,25 @@ export default function About() {
           <br />
           <p>Rijbewijs: type B</p>
           <hr className='h-px my-4 border-0 bg-gray-700' />
+          <p className='text-xl font-semibold'>Talenkennis</p>
+          <tbody>
+          <tr>
+              <td className='w-44'>Nederlands</td>
+              <td>Moedertaal</td>
+            </tr>
+          </tbody>
+          <p>Engels</p>
+          <tbody>
+            <tr>
+              <td className='pl-2 w-44'>Lezen & luisteren</td>
+              <td>C2</td>
+            </tr>
+            <tr>
+              <td className='pl-2'>Spreken</td>
+              <td>B2</td>
+            </tr>
+          </tbody>
+          <hr className='h-px my-4 border-0 bg-gray-700' />
           <p className='text-xl font-semibold'>Vrije tijd</p>
           <p>2022-2023</p>
           <p className='pl-2'>
@@ -134,17 +151,9 @@ export default function About() {
           
           <hr className='h-px my-4 border-0 bg-gray-700' />
           <a
-            href='https://github.com/HildeH2002'
+            href='https://rt6zyqesuqnyty1i.public.blob.vercel-storage.com/CurriculumVitae-VCxBTCb5qwr7lf0Uw2k5799zSHajsS.pdf'
             target='_blank'
-            className='group -m-1 p-1 flex flex-rows gap-2'
-          >
-            <GitHubIcon className='h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 ' />
-            Github repo
-          </a>
-          <a
-            href='https://rt6zyqesuqnyty1i.public.blob.vercel-storage.com/CurriculumVitaeHildeHemelaers-XGFb3wN3Xubk5TWBBxnbWyf3INlVok.pdf'
-            target='_blank'
-            className='bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center mt-10'
+            className='bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
           >
             <svg
               className='fill-current w-4 h-4 mr-2'

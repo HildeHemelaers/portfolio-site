@@ -7,6 +7,7 @@ import tweet2 from '@/app/images/projects/nvdos/hacktory tweet 2.jpg';
 import tweet3 from '@/app/images/projects/nvdos/hacktory tweet 3.jpg';
 import spelbord from '@/app/images/projects/nvdos/Spelbord.png'
 import bewijsFinale from '@/app/images/projects/nvdos/hacktory bewijs 4 punten.jpg';
+import { ProjectNavigation } from '@/app/components/projectNavigation';
 
 export default function Krioen() {
   return (
@@ -14,6 +15,7 @@ export default function Krioen() {
       title='Nacht van de ondernemende student'
       intro='Een hackathon voor en door studenten.'
     >
+      <ProjectNavigation href1='/projects/project4.0' href2='/projects' href3='/projects/googleDrive' />
       <Image
         className='pt-2'
         src={spelbord}
@@ -103,7 +105,7 @@ export default function Krioen() {
         height='240'
         src='https://www.youtube.com/embed/6mM7xQ_dQnU'
       ></iframe>
-      <Back>/projects</Back>
+      
     </SimpleLayout>
   );
 }

@@ -4,6 +4,7 @@ import { Tussentitel } from '@/app/components/tussentitel';
 import { GlobeAltIcon } from '@heroicons/react/20/solid';
 import PhotoKrioen from '@/app/images/projects/krioen/krioen.png';
 import Image from 'next/image';
+import { ProjectNavigation } from '@/app/components/projectNavigation';
 
 export default function Krioen() {
   return (
@@ -11,10 +12,12 @@ export default function Krioen() {
       title='Krioen'
       intro='Krioen is de overkoepelende vzw van Akabe de Pioen en Chiro Kringel Elsum voor de bouw van hun gezamenlijke  lokalen.'
     >
+      <ProjectNavigation href1='null' href2='/projects' href3='/projects/project4.0' />
       <a
         target='_blank'
         href='https://www.dekrioen.be/'
       >
+        
         <Image
           src={PhotoKrioen}
           width={600}
@@ -76,7 +79,7 @@ export default function Krioen() {
         <GlobeAltIcon className='h-4 w-4' />
         dekrioen.be
       </a>
-      <Back>/projects</Back>
+      
     </SimpleLayout>
   );
 }

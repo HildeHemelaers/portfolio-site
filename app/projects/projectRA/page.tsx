@@ -8,6 +8,7 @@ import screen1b from '@/app/images/projects/ra/screen12.jpg';
 import useCase2 from '@/app/images/projects/ra/usecase2.jpg';
 import screen2a from '@/app/images/projects/ra/screen21.jpg';
 import Image from 'next/image';
+import { ProjectNavigation } from '@/app/components/projectNavigation';
 
 export default function ProjectRa() {
   return (
@@ -15,6 +16,7 @@ export default function ProjectRa() {
       title='Project requirements analysis'
       intro='IT projecten analyseren en documenteren.'
     >
+      <ProjectNavigation href1='/projects/appMobileDevAndAr' href2='/projects' href3='stage' />
       <Image src={project} width={600} alt='Foto RA' />
       <Tussentitel>Achtergrond en context</Tussentitel>
       <p>
@@ -83,7 +85,7 @@ export default function ProjectRa() {
       <Image src={screen1b} width={300} alt='Foto RA' className=' my-5' />
       <Image src={useCase2} width={500} alt='Foto RA' className=' my-5 mt-10' />
       <Image src={screen2a} width={400} alt='Foto RA' className=' my-5' />
-      <Back>/projects</Back>
+      
     </SimpleLayout>
   );
 }

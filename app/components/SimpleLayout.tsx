@@ -17,7 +17,7 @@ export function SimpleLayout({
         </h1>
         <p className='mt-6 text-base text-zinc-600'>{intro}</p>
       </header>
-      {children && <div className='mt-8 sm:mt-10'>{children}</div>}
+      {children && <div className='mt-8 sm:mt-10 relative'>{children}</div>}
     </Container>
   );
 }
