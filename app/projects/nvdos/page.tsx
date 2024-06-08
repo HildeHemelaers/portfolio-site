@@ -58,7 +58,7 @@ export default function Krioen() {
         we op de derde plaats wat toch een mooie prestatie was.
       </p>
       <Tussentitel>
-        Beschrijven van mijn taken en verantwoordelijkheden
+        beschrijving van mijn taken en verantwoordelijkheden
       </Tussentitel>
       <p>
         Aangezien de gekregen opdracht minder in de leefwereld van mijn

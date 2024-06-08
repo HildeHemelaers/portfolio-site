@@ -62,7 +62,7 @@ export default function GoogleDrive() {
         Photoshop om voor elk mapje een passende cover te maken.
       </p>
       <Tussentitel>
-        Beschrijven van mijn taken en verantwoordelijkheden
+        beschrijving van mijn taken en verantwoordelijkheden
       </Tussentitel>
       <p>
         Ik was verantwoordelijk voor het volledige project. Ik kon terecht bij

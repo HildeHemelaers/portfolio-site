@@ -39,12 +39,12 @@ export default function Project40() {
       <p className='pt-2'>
         Ons project was erop gericht een oplossing te bieden in de bouw bij de
         fase van de grondbemaling. Wij zouden een{' '}
-        <text className='italic '>proof op concept</text> maken waarmee onze
+        <text className='italic '>proof fp concept</text> maken waarmee onze
         klant hogerop kon gaan om te vragen voor budget voor de volledige
         uitwerking van het idee.
       </p>
       <p className='pt-2'>
-        Voor de bouw start van een kelder, septische putten, water putten, ...
+        Voor de bouw start van een kelder, septische putten, waterputten, ...
         moet eerst het grondwater weggepompt worden tot onder het niveau van de
         plaatsing van deze onderdelen. Momenteel gebeurt dit niet efficiënt en
         economisch. Er wordt vaak te veel water weggepompt. Dit kost veel.
@@ -54,17 +54,17 @@ export default function Project40() {
         Project 4.0 bestond uit meerdere fases. In de eerste fase was het doel
         om een goede analyse te maken van het project. Ook moest er een
         duidelijk plan van aanpak zijn voor de volgende fase. In deze fase
-        gebeurde de voorbereidingen zoals het uitzoeken van de nodige
+        gebeurden de voorbereidingen zoals het uitzoeken van de nodige
         componenten om vlot te kunnen starten in de volgende fase.
       </p>
       <p className='pt-2'>
         In het tweede deel was ons doel het uitwerken van een{' '}
-        <text className='italic '>proof op concept</text> voor de automatische
+        <text className='italic '>proof of concept</text> voor de automatische
         grondbemaling. De pompen zouden moeten aangestuurd worden op basis van
-        sensor gegevens die aangeven tot waar het grondwater staat. Ook zou het
+        sensorgegevens die aangeven tot waar het grondwater staat. Ook zou het
         systeem zich automatisch moeten heropstarten als er een probleem is met
         één pomp. Momenteel valt het volledige systeem uit bij een pomp met
-        probleem waardoor het kan voorkomen dat er buiten de werkuren en
+        probleem waardoor het kan voorkomen dat er buiten de werkuren een
         technieker ter plaatse moet komen.
       </p>
       <Tussentitel>Gebruikte technologieën</Tussentitel>
@@ -81,7 +81,7 @@ export default function Project40() {
         componenten. Deze communiceerden met elkaar via LoRa.
       </p>
       <Tussentitel>
-        Beschrijven van mijn taken en verantwoordelijkheden
+        beschrijving van mijn taken en verantwoordelijkheden
       </Tussentitel>
       <p>
         Ik was verantwoordelijk voor de uitwerking van de frontend en de hosting

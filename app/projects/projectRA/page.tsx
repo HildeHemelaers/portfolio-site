@@ -60,7 +60,7 @@ export default function ProjectRa() {
       </ul>
       <p className='pt-2'>Voor het projectmanagement gebruikten we Trello.</p>
       <Tussentitel>
-        Beschrijven van mijn taken en verantwoordelijkheden
+        beschrijving van mijn taken en verantwoordelijkheden
       </Tussentitel>
       <p>
         We werkten in een team van 5 studenten. Het werk is redelijk gelijk

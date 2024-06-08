@@ -27,7 +27,7 @@ export default function Krioen() {
       </a>
       <Tussentitel>Achtergrond en context</Tussentitel>
       <p>
-        April 2024 kreeg ik de vraag van vzw krioen of ik voor een website kon
+        April 2024 kreeg ik de vraag van vzw Krioen of ik voor een website kon
         zorgen. Op deze site zou de conceptnota verschijnen. Dit om alle info op
         een toegankelijke manier tot de leden en sympathisanten van beide
         jeugdbewegingen te krijgen. Ook zal deze dienen om sponsors aan te
@@ -55,10 +55,10 @@ export default function Krioen() {
         tailwind css voor de styling.
       </p>
       <Tussentitel>
-        Beschrijven van mijn taken en verantwoordelijkheden
+        Beschrijving van mijn taken en verantwoordelijkheden
       </Tussentitel>
       <p>
-        Dit project heb ik volledig zelf gedaan. Ik kon wel mensen te hulp
+        Dit project heb ik volledig zelf gedaan. Ik kon wel mensen hulp
         vragen voor info. Zo kon ik bij een van de verantwoordelijke van de vzw
         terecht voor meer info over wat er juist op de website moest verschijnen
         en hoe zij dit zagen. Op mijn stage kon ik een aantal vragen stellen

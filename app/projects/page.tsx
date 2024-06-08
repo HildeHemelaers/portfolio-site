@@ -82,7 +82,7 @@ export default function Projects() {
   return (
     <SimpleLayout
       title='Mijn projecten'
-      intro='Hieronder kan u een aantal van mijn verwezenlijkte projecten terugvinden. Dit gaat zowel over projecten die ik binnen als buiten de scool context heb gemaakt.'
+      intro='Hieronder kan u een aantal van mijn verwezenlijkte projecten terugvinden. Dit gaat zowel over projecten die ik binnen als buiten de schoolcontext heb gemaakt.'
     >
       <ul
         role='list'

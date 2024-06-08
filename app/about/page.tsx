@@ -313,7 +313,7 @@ export default function About() {
           <p className='pl-2'>
             Jysk Olen
             <p className='text-slate-400'>
-              Jobstudent in de winkel (Winkel aanvullen, kassa en klanten
+              Jobstudent in de winkel (winkel aanvullen, kassa en klanten
               helpen)
             </p>
           </p>
