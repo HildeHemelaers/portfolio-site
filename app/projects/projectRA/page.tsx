@@ -43,7 +43,7 @@ export default function ProjectRa() {
       </p>
       <ul className='list-disc ml-10 pt-2'>
         <li>
-          Opdrachtbeschrijving
+          OpdrachtBeschrijving
           <ul className='list-circle ml-11'>
             <li>Achtergrondinformatie</li>
             <li>Doelstellingen en doelgroep</li>
@@ -60,7 +60,7 @@ export default function ProjectRa() {
       </ul>
       <p className='pt-2'>Voor het projectmanagement gebruikten we Trello.</p>
       <Tussentitel>
-        beschrijving van mijn taken en verantwoordelijkheden
+        Beschrijving van mijn taken en verantwoordelijkheden
       </Tussentitel>
       <p>
         We werkten in een team van 5 studenten. Het werk is redelijk gelijk

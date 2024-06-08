@@ -12,8 +12,8 @@ import Image from 'next/image';
 export default function GoogleDrive() {
   return (
     <SimpleLayout
-      title='Implementatie Google workspace'
-      intro="Voor een jeugdbeweging is het belangrijk om hun bestanden op een overzichtelijke manier te beheren. Ook foto's moeten bewaard worden en dit op een manier die in norm is met de GDPR wetgeving."
+      title='Implementatie Google Workspace'
+      intro="Voor een jeugdbeweging is het belangrijk om hun bestanden op een overzichtelijke manier te beheren. Ook foto's moeten bewaard worden en dit op een manier die voldoet aan de GDPR wetgeving."
     >
       <ProjectNavigation href1='/projects/nvdos' href2='/projects' href3='/projects/appMobileDevAndAr' />
 
@@ -25,7 +25,7 @@ export default function GoogleDrive() {
       />
       <Tussentitel>Achtergrond en context</Tussentitel>
       <p>
-        De pioen bestond al bijna 25 jaar en sinds ongeveer 10 jaar hielden we
+        De Pioen bestaat al meer dan 25 jaar en sinds ongeveer 10 jaar hielden we
         onze documenten al online bij op één plek. Jammer genoeg gingen er nog
         veel documenten verloren omdat we gebruik maakten van Nextcloud. Leiding
         vond dit vaak niet handig omdat er problemen ontstonden als je samen in
@@ -46,23 +46,22 @@ export default function GoogleDrive() {
         konden afsluiten. Hiermee zouden we gemakkelijk de toegang tot mappen
         voor gebruikers kunnen beheren. Ook kregen we 1TB aan opslagruimte wat
         ruim voldoende was. Ik moest er dus voor zorgen dat we dit gratis
-        account kregen, dat alle leiding en oud-leiding aan account had, dat al
+        account kregen, dat alle leiding en oud-leiding een account had, dat al
         onze documenten overgezet werden, dat (oud)leiding wist hoe alles{' '}
         {/* eslint-disable-next-line react/no-unescaped-entities */}
-        werkte, dat ouders terug toegang kregen dat de foto's en dat er nog
-        andere mensen samen het admin schap van de Google Workspace op zich
-        konden nemen.
+        werkte, dat ouders terug toegang kregen tot de foto's en dat er nog
+        andere mensen ook administrator van de Google Workspace konden zijn.
       </p>
       <Tussentitel>Gebruikte technologieën</Tussentitel>
       <p>
         {/* eslint-disable-next-line react/no-unescaped-entities */}
         Ik heb al onze documenten en foto's overgezet naar een Google drive.
         Aangezien deze Google drive gekoppeld was aan een Google Workspace
-        konden daar ook de accounts gemaakt worden. Ik heb gebruikt gemaakt van
+        konden daar ook de accounts gemaakt worden. Ik heb gebruik gemaakt van
         Photoshop om voor elk mapje een passende cover te maken.
       </p>
       <Tussentitel>
-        beschrijving van mijn taken en verantwoordelijkheden
+        Beschrijving van mijn taken en verantwoordelijkheden
       </Tussentitel>
       <p>
         Ik was verantwoordelijk voor het volledige project. Ik kon terecht bij

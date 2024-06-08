@@ -81,7 +81,7 @@ export default function Project40() {
         componenten. Deze communiceerden met elkaar via LoRa.
       </p>
       <Tussentitel>
-        beschrijving van mijn taken en verantwoordelijkheden
+        Beschrijving van mijn taken en verantwoordelijkheden
       </Tussentitel>
       <p>
         Ik was verantwoordelijk voor de uitwerking van de frontend en de hosting

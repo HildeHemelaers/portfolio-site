@@ -64,7 +64,7 @@ export default function AppMobileDevAndAr() {
         Design gebruikt. De implementatie van AR gebeurde met Wikitude.
       </p>
       <Tussentitel>
-        beschrijving van mijn taken en verantwoordelijkheden
+        Beschrijving van mijn taken en verantwoordelijkheden
       </Tussentitel>
       <p>
         Ik heb dit project individueel gemaakt. Voor hulp waar nodig kon ik
